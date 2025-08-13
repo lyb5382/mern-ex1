@@ -15,7 +15,7 @@ const postRoutes = require('./routes/postRoutes')
 app.use('/api/posts', postRoutes)
 
 app.get('/', (req, res) => {
-    res.setEncoding('hello express')
+    res.send('hello express')
 })
 app.listen(PORT, () => {
     console.log(`server running → http://localhost:${PORT}`)
