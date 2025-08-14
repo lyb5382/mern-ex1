@@ -1,0 +1,59 @@
+.post-wrap {
+    max-width: 680px;
+    margin: 32px auto;
+    padding: 0 20px;
+}
+
+.post-wrap h2 {
+    margin: 0 0 12px;
+}
+
+.post-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-controls input,
+.post-controls textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 12px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.btn.refresh {
+    background-color: darkgray;
+}
+
+.btn+.btn {
+    margin-left: 10px;
+}
+
+.update.btn {
+    background-color: lightskyblue;
+}
+
+.delete.btn {
+    background-color: palevioletred;
+}
+
+.post-list li {
+    border: 1px solid #eee;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+}
+
+.post-list li p {
+    margin: 10px 0;
+    color: cornflowerblue;
+}
